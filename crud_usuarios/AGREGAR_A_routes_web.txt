@@ -1,0 +1,5 @@
+En routes/web.php agrega estas dos lineas (la primera va arriba con los otros "use"):
+
+use App\Http\Controllers\UsuarioController;
+
+Route::resource('usuarios', UsuarioController::class);

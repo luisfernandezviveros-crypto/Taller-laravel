@@ -1,0 +1,17 @@
+CRUD USUARIOS LARAVEL
+
+1. Copia las carpetas app y resources dentro de tu proyecto uniajc_laravel
+   (acepta reemplazar si pregunta).
+2. Agrega la ruta de AGREGAR_A_routes_web.txt en routes/web.php.
+3. Prueba:
+   php artisan route:list
+   & "C:\xampp\php\php.exe" artisan serve
+   Abre http://127.0.0.1:8000/usuarios
+4. Subir a Git (crea antes un repo vacio en GitHub):
+   git init
+   git add .
+   git commit -m "CRUD de usuarios en Laravel"
+   git branch -M main
+   git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
+   git push -u origin main
+5. Comparte el enlace del repo en la entrega.
